@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>乐趣多多</title>
+    <style>
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: burlywood;
+        }
+
+        nav li {
+            display: inline-block;
+        }
+
+        nav li a,
+        .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav li a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: bisque;
+        }
+
+        nav li.dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: GhostWhite;
+            min-width: 160px;
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: Gainsboro;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        div.gallery {
+            margin: 5px;
+            float: left;
+            width: 180px;
+        }
+
+        div.gallery {
+            width: 350px;
+            height: 250px;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: 70%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+            text-shadow: 2px 2px burlywood;
+        }
+
+        .footer {
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+            clear: both;
+            background-image: linear-gradient(bisque, white);
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .relative {
+            position: relative;
+            bottom: 300px;
+            left: 10px;
+            margin: 2px 5px;
+            display: inline-block;
+            color: gold;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img width="100%" height="250px"
+            src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fblog%2F202103%2F13%2F20210313231203_017cf.png&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1671935281&t=cba88173c2f18c5fe18dc3a8a1e8c028">
+        <nav>
+            <ul>
+                <li><a href="3.html">名侦探柯南</a></li>
+                <li><a href="4.html">鲁邦三世</a></li>
+                <li><a href="5.html">夏日重现</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">番剧网站</a>
+                    <div class="dropdown-content">
+                        <a href="https://www.agemys.cc/">AGE动漫</a>
+                        <a href="https://www.bilibili.com/">哔哩哔哩</a>
+                        <a href="https://www.yhdmp.cc/">樱花动漫</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="relative">无限滑板:兰加(左) 武历(右)</div>
+    <main>
+
+        <div class="gallery">
+            <a target="_blank"
+                href="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg2.huashi6.com%2Fimages%2Fresource%2F2020%2F03%2F13%2F800920h62p0.jpg%3FimageMogr2%2Fquality%2F75%2Finterlace%2F1%2Fthumbnail%2F700x%3E&refer=http%3A%2F%2Fimg2.huashi6.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1671885126&t=c38f36b32b4adcdfa568209458b107df">
+                <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg2.huashi6.com%2Fimages%2Fresource%2F2020%2F03%2F13%2F800920h62p0.jpg%3FimageMogr2%2Fquality%2F75%2Finterlace%2F1%2Fthumbnail%2F700x%3E&refer=http%3A%2F%2Fimg2.huashi6.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1671885126&t=c38f36b32b4adcdfa568209458b107df"
+                    width="600px" height="400px">
+            </a>
+            <div class="desc">柯南</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank"
+                href="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic2.zhimg.com%2Fv2-c544281c52cf60f3eefe26902e0c0abd_r.jpg%3Fsource%3D1940ef5c&refer=http%3A%2F%2Fpic2.zhimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1671885283&t=2cd625a12a9903c82388295ebc48da6f">
+                <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic2.zhimg.com%2Fv2-c544281c52cf60f3eefe26902e0c0abd_r.jpg%3Fsource%3D1940ef5c&refer=http%3A%2F%2Fpic2.zhimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1671885283&t=2cd625a12a9903c82388295ebc48da6f"
+                    width="600px" height="400px">
+            </a>
+            <div class="desc">鬼灭之刃</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank"
+                href="https://img1.baidu.com/it/u=606304987,887290219&fm=253&fmt=auto&app=138&f=JPEG?w=640&h=400">
+                <img src="https://img1.baidu.com/it/u=606304987,887290219&fm=253&fmt=auto&app=138&f=JPEG?w=640&h=400"
+                    width="600px" height="400px">
+            </a>
+            <div class="desc">海贼王</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank"
+                href="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fbkimg.cdn.bcebos.com%2Fpic%2Fa686c9177f3e6709c93d8506948f883df8dcd000ffbb&refer=http%3A%2F%2Fbkimg.cdn.bcebos.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1671885797&t=c6d9d47644bb8ebafd633dd58b8801c3">
+                <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fbkimg.cdn.bcebos.com%2Fpic%2Fa686c9177f3e6709c93d8506948f883df8dcd000ffbb&refer=http%3A%2F%2Fbkimg.cdn.bcebos.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1671885797&t=c6d9d47644bb8ebafd633dd58b8801c3"
+                    width="600px" height="400px">
+            </a>
+            <div class="desc">鲁邦三世</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank"
+                href="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F2019-09-12%2F5d7a12bcaa50a.jpg&refer=http%3A%2F%2Fpic1.win4000.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1671885928&t=fffe57d1a9cd9d8c054336917bc764aa">
+                <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F2019-09-12%2F5d7a12bcaa50a.jpg&refer=http%3A%2F%2Fpic1.win4000.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1671885928&t=fffe57d1a9cd9d8c054336917bc764aa"
+                    width="600px" height="400px">
+            </a>
+            <div class="desc">火影忍者</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank"
+                href="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic4.zhimg.com%2Fv2-0ed8fe23fecc924fc70c1c4b1dadff4d_1440w.jpg%3Fsource%3D172ae18b&refer=http%3A%2F%2Fpic4.zhimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1671886184&t=98d68363bbd49846e918518651d100cb">
+                <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic4.zhimg.com%2Fv2-0ed8fe23fecc924fc70c1c4b1dadff4d_1440w.jpg%3Fsource%3D172ae18b&refer=http%3A%2F%2Fpic4.zhimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1671886184&t=98d68363bbd49846e918518651d100cb"
+                    width="600px" height="400px">
+            </a>
+            <div class="desc">动物狂想曲</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank"
+                href="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.dnzhuti.com%2Fuploads%2Fallimg%2F160909%2F95-160Z9142601.jpg&refer=http%3A%2F%2Fwww.dnzhuti.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1671886756&t=3fda16d69fa1f170858110966cc426d0">
+                <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.dnzhuti.com%2Fuploads%2Fallimg%2F160909%2F95-160Z9142601.jpg&refer=http%3A%2F%2Fwww.dnzhuti.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1671886756&t=3fda16d69fa1f170858110966cc426d0"
+                    width="600px" height="400px">
+            </a>
+            <div class="desc">夏目友人帐</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank"
+                href="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fcn.best-wallpaper.net%2Fwallpaper%2F1280x800%2F1109%2FSlam-Dunk_1280x800.jpg&refer=http%3A%2F%2Fcn.best-wallpaper.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1671886966&t=a8a323441a7406f775f82955edb6e447">
+                <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fcn.best-wallpaper.net%2Fwallpaper%2F1280x800%2F1109%2FSlam-Dunk_1280x800.jpg&refer=http%3A%2F%2Fcn.best-wallpaper.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1671886966&t=a8a323441a7406f775f82955edb6e447"
+                    width="600px" height="400px">
+            </a>
+            <div class="desc">灌篮高手</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank"
+                href="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.3dmgame.com%2Fuploads%2Fimages%2Fnews%2F20220410%2F1649599435_565946.png&refer=http%3A%2F%2Fimg.3dmgame.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1671887228&t=86192f9fee01b0249b357fc9cde9d94b">
+                <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.3dmgame.com%2Fuploads%2Fimages%2Fnews%2F20220410%2F1649599435_565946.png&refer=http%3A%2F%2Fimg.3dmgame.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1671887228&t=86192f9fee01b0249b357fc9cde9d94b"
+                    width="600px" height="400px">
+            </a>
+            <div class="desc">间谍过家家</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank"
+                href="https://pic.rmb.bdstatic.com/bjh/down/85c0a31698f246fa1b6cfa0ea94729ad.png@s_0,w_2000">
+                <img src="https://pic.rmb.bdstatic.com/bjh/down/85c0a31698f246fa1b6cfa0ea94729ad.png@s_0,w_2000"
+                    width="600px" height="400px">
+            </a>
+            <div class="desc">夏日重现</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank"
+                href="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwx1.sinaimg.cn%2Fmw690%2F6f250299gy1h7v49a2uiej215j0u047z.jpg&refer=http%3A%2F%2Fwx1.sinaimg.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1671887696&t=fbff72d25a25fa43ef160baa2ba36f82">
+                <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwx1.sinaimg.cn%2Fmw690%2F6f250299gy1h7v49a2uiej215j0u047z.jpg&refer=http%3A%2F%2Fwx1.sinaimg.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1671887696&t=fbff72d25a25fa43ef160baa2ba36f82"
+                    width="600px" height="400px">
+            </a>
+            <div class="desc">孤独摇滚</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank"
+                href="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Finews.gtimg.com%2Fnewsapp_bt%2F0%2F15250933836%2F1000&refer=http%3A%2F%2Finews.gtimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1671887843&t=3b1fb7798af67188f1bb188c3db501b2">
+                <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Finews.gtimg.com%2Fnewsapp_bt%2F0%2F15250933836%2F1000&refer=http%3A%2F%2Finews.gtimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1671887843&t=3b1fb7798af67188f1bb188c3db501b2"
+                    width="600px" height="400px">
+            </a>
+            <div class="desc">奇幻世界舅舅</div>
+        </div>
+
+    </main>
+    <br>
+    <footer>
+        <div class="footer">
+            <p>动漫集合(首页)</p>
+            <a href="2.html">实验报告</a>
+        </div>
+    </footer>
+</body>
+
+</html>

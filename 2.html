@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>web大作业实验报告</title>
+    <style>
+        .container1 {
+            float: left;
+            width: 20%;
+            background-color: whitesmoke;
+            position: fixed;
+            height: 100%;
+        }
+
+        .container2 {
+            width: 79%;
+            float: right;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav ul li a {
+            display: inline-block;
+            text-decoration: none;
+            text-align: center;
+            padding: 14px 16px;
+        }
+
+        nav ul li a:hover {
+            background-color: skyblue;
+            color: white;
+        }
+
+        nav ul li a:active {
+            background-color: gray;
+            color: white;
+        }
+
+        p {
+            font-size: large;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .flex-container div {
+            width: 48%;
+            margin: 10px;
+            border: 1px solid silver;
+            text-align: center;
+        }
+
+        .flex-container div img {
+            width: 80%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container1">
+        <nav>
+            <ul>
+                <li><a href="#人员信息">人员信息</a></li>
+                <li><a href="#网站介绍">网站介绍</a></li>
+                <li><a href="#网站设计">网站设计</a>
+                    <ol>
+                        <li>内容模块</li>
+                        <li>页面组织结构</li>
+                    </ol>
+                </li>
+                <li><a href="#网站内容">网站内容</a>
+                    <ol>
+                        <li>主要技术</li>
+                        <li>网站主要内容</li>
+                        <li>遇到的问题</li>
+                    </ol>
+                </li>
+                <li><a href="#最终结果">最终结果</a>
+                    <ol>
+                        <li>自我评价</li>
+                        <li>总结</li>
+                        <li>展望</li>
+                    </ol>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container2">
+        <h2 id="人员信息">人员信息</h2>
+        <p>邱惠莹 /0223498 /软件工程2213班</p>
+        <h2 id="网站介绍">网站介绍</h2>
+        <p>名称：乐趣多多</p>
+        <p>主题：动漫</p>
+        <p>选题目的：介绍一些动漫</p>
+        <h2 id="网站设计">网站设计</h2>
+        <p><b>1.内容模块</b>：</p>
+        <div>
+
+            <div class="flex-container">
+                <div>
+                    <p>头图+二级导航栏+float布局+页脚</p><img width="100%" src="8H9PX62`Q_BA4%9%ZMH}HP5.png">
+                </div>
+                <div>
+                    <p>头图+导航栏+JS按钮+页脚</p><img width="100%" src="M`FN%N[6MGO}JW6JPDZ_3VT.png">
+                </div>
+                <div>
+                    <p>侧边栏（锚点定位）+图片flex布局+表格+float+页脚</p><img width="100%" src="QZ_P0X1ZQ24P7R_QE(KYJU1.png">
+                </div>
+                <div>
+                    <p>导航栏float+felx布局+页脚</p><img width="100%" src="IM{))GJW4EK5HXLBFY1@J8H.png">
+                </div>
+            </div>
+        </div>
+        <p><b>2.页面组织结构</b>：</p>
+        <div>
+            <p>(1)文字悬浮于图片上</p>
+            <img width="100%" src="1V7_6[SPI$NF_AZKGPN$`AH.png">
+            <p>(2)二级导航栏</p>
+            <img src="QQ图片20230111222212.png">
+            <p>(3)图片、文字阴影</p>
+            <div class="flex-container">
+                <div style="border: 0;">
+                    <img width="100%" src="QQ图片20230111223552.png">
+                </div>
+                <div style="border: 0;">
+                    <img src="QQ图片20230111222655.png">
+                </div>
+            </div>
+            <p>(4)渐变、圆角边框</p>
+            <img width="100%" src="QQ图片20230111224545.png">
+            <img width="100%" src="QQ图片20230111224553.png">
+            <img width="100%" src="QQ图片20230111224601.png">
+            <p>(5)JS按钮</p>
+            <img src="QQ图片20230111232330.png">
+        </div>
+        <h2 id="网站内容">网站内容</h2>
+        <p><b>1.主要技术：</b></p>
+        <p>(1)html: 表格table, 图片img, 列表ul。</p>
+        <p>(2)js: tab</p>
+        <p>(3)css: float+clear布局,flex布局, position定位（absolute, fixed），文字悬浮于图片上，伪类。</p>
+        <p> position定位（absolute, fixed）</p>
+        <img src="QQ图片20230111233915.png">
+        <p><b>2.网站主要内容：</b>主页是一些动漫的图片，三张子页分别详细介绍了名侦探柯南、鲁邦三世、夏日重现三部动漫。</p>
+        <p><b>3.遇到的问题：</b></p>
+        <p>(1)主页图片布局用的是float，一开始没意识到用了float居中不了，试过整体加一个盒子居中，都没达到想要的结果。</p>
+        <p>(2)做名侦探柯南页面时，用了flex布局，一开始图片堆叠在一起，是因为没有注意flex盒子的大小比图片大小小，后来发现问题所在。</p>
+        <p>(3)做夏日重现页面时，flex盒子对仗不齐，后面重新调节了盒子大小。</p>
+        <h2 id="最终结果">最终结果</h2>
+        <p><b>1.自我评价：</b>整个网站主要时简约风，自我感觉还行，一些高级的用法还不太会用，但完成了要求，整体还可以。</p>
+        <p><b>2.总结：</b>还是有很多不太懂的地方，进步空间非常大，有待提升。</p>
+        <p><b>3.展望：</b>以后要多学习一些比较高级、酷炫的用法，不拘泥于课堂学到的知识，要更多的去学习一些其他知识，提到自己的能力。</p>
+    </div>
+</body>
+
+</html>
