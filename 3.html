@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>名侦探柯南</title>
+    <style>
+        #leftside {
+            float: left;
+            width: 20%;
+            background-color: whitesmoke;
+            position: fixed;
+            height: 100%;
+        }
+
+        div.relative {
+            position: relative;
+        }
+
+        div.absolute {
+            position: absolute;
+            bottom: 50px;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav ul li a {
+            display: inline-block;
+            text-decoration: none;
+            text-align: center;
+            padding: 14px 16px;
+        }
+
+        nav ul li a:hover {
+            background-color: skyblue;
+            color: white;
+        }
+
+        nav ul li a:active {
+            background-color: gray;
+            color: white;
+        }
+
+        .container {
+            width: 79%;
+            float: right;
+        }
+
+        table tr td {
+            background-color: paleturquoise;
+            color: plum;
+        }
+
+        table tr th {
+            background-color: plum;
+            color: paleturquoise;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .flex-container div {
+            width: 250px;
+            margin: 5px;
+            text-align: center;
+            line-height: 75px;
+        }
+
+        .flex-container div img {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .footer {
+            font-size: x-small;
+            background-color: whitesmoke;
+            text-align: center;
+            border: 2px solid goldenrod;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="leftside">
+        <nav>
+            <ul>
+                <li><a href="#动画简介">动画简介</a></li>
+                <li><a href="#柯南信息">柯南信息</a></li>
+                <li><a href="#身份背景">身份背景</a></li>
+                <li><a href="#相貌衣着">相貌衣着</a></li>
+                <li><a href="#性格特点">性格特点</a></li>
+                <div class="relative">
+                    <li><a href="#角色生活">角色生活</a></li>
+                </div>
+                <div class="absolute">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="4.html">鲁邦三世</a></li>
+                    <li><a href="5.html">夏日重现</a></li>
+                </div>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="flex-container">
+            <div><img height="200px" width="200px"
+                    src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201601%2F24%2F20160124192617_df3rz.thumb.1000_0.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1675322890&t=d43f638963a623082759c0515a4f4c13">
+            </div>
+            <div><img height="200px" width="200px"
+                    src="https://5b0988e595225.cdn.sohucs.com/images/20170831/ae86a226b9ef41819a2ad23e5a25f366.jpeg">
+            </div>
+            <div><img height="200px" width="200px"
+                    src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201909%2F25%2F20190925175047_yugch.jpg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1675323305&t=313c18ee1e543d3908de14b27063ce77">
+            </div>
+            <div><img height="200px" width="200px" src="a71ea8d3fd1f41343b083663271f95cad1c85eeb.jpg"></div>
+            <div><img height="200px" width="200px"
+                    src="https://img2.baidu.com/it/u=2655898113,1593821882&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=706">
+            </div>
+            <div><img height="200px" width="200px"
+                    src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201702%2F07%2F20170207213237_ejJRt.jpeg&refer=http%3A%2F%2Fb-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1675323505&t=8bfc9f6180d174de39de383fd8eb1bc4">
+            </div>
+            <div><img height="200px" width="200px"
+                    src="https://www.yanjiao168.com/uploads/allimg/180305/3-1P3051P5534a.jpg"></div>
+            <div><img height="200px" width="200px"
+                    src="https://img2.baidu.com/it/u=4053200325,3284141579&fm=253&fmt=auto&app=138&f=JPEG?w=440&h=314">
+            </div>
+
+        </div>
+        <div>
+            <p id="动画简介"><b>动画简介</b></p>
+            <p>江户川柯南，日本漫画《名侦探柯南》及其衍生作品中的男主角。真实身份是高中生侦探工藤新一，人称“平成年代的福尔摩斯”“日本警察的救世主”。因试图跟踪黑衣组织成员被偷袭，并被灌下代号“APTX4869”的毒药，虽然幸免于死，但身体缩小成一年级小学生的模样。之后寻求阿笠博士的帮助，在被青梅竹马毛利兰询问自己名字时，化名为江户川柯南。在阿笠博士的提议下，寄住于小兰的父亲毛利小五郎家中，解决各种案件的同时秘密调查黑衣组织。
+            </p>
+            <br>
+        </div>
+        <div>
+            <p id="柯南信息"><b>柯南信息</b><img style="float: right;" height="180px"
+                    src="d6ca7bcb0a46f21fec088834f9246b600c33ae9d.jpg" </p>
+            <table>
+                <tr>
+                    <th>中文名</th>
+                    <td>江户川柯南</td>
+                    <th>别名</th>
+                    <td>工藤新一</td>
+                    <th>性别</th>
+                    <td>男</td>
+                </tr>
+                <tr>
+                    <th>生日</th>
+                    <td>5月4日</td>
+                    <th>年龄</th>
+                    <td>真实年龄17岁</td>
+                    <th>虚拟人物血型</th>
+                    <td>不详，与小兰形同</td>
+                </tr>
+                <tr>
+                    <th>体重</th>
+                    <td>18kg</td>
+                    <th>真实身份</th>
+                    <td>高中生侦探工藤新一</td>
+                    <th>就读</th>
+                    <td>帝单小学1年B班</td>
+                </tr>
+            </table>
+            <br>
+        </div>
+        <div>
+            <p id="身份背景"><b>身份背景</b></p>
+            <p>真实身份是高中生侦探工藤新一。17岁，因服下毒药身体变小后外表约7岁。生日是5月4日。原来住在东京都米花町2丁目21番地。变小后的工藤新一被毛利兰询问姓名，他情急之下受到《福尔摩斯探案集》的作者“阿瑟·柯南·道尔”和日本侦探小说作家“江户川乱步”名字的启发，为自己取名为“江户川柯南”。现住在毛利侦探事务所，地址为东京都米花町5丁目39番地1号。他在帝丹小学1年B班就读。
+            </p>
+            <br>
+        </div>
+        <div>
+            <p id="相貌衣着"><b>相貌衣着</b><img style="float:right" height="250px"
+                    src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201611%2F20%2F20161120103939_mTACt.thumb.400_0.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1675320226&t=9fc10ea105ceb803f9c5579ae62a2daf">
+            </p>
+            <p>
+                江户川柯南的头发前面有刘海，后侧有两处突起。他的标准服装是蓝西装、白衬衫、灰短裤及红领结，这多见于早期，后期他的服装逐渐多样化。他偶尔也会戴上鸭舌帽，且偏好反戴。
+                他的身高在小学一年级生中算小个子。作者青山刚昌称柯南的身高跟刚变小时比慢慢会有微妙的变化。</p>
+            <br>
+        </div>
+        <div>
+            <p id="性格特点"><b>性格特点</b></p>
+            <p>他始终把生命放在第一位，在纽约时，明知道面对的是银发杀人魔，还是出手救了他的性命。他有极强的正义感，他认为作为侦探，不能够为了一味追求事实真相，就把本来可以认错赎罪的犯人逼上自杀的绝境。他不畏艰难和危险，多次和黑衣组织交手，还曾险些被琴酒发现，但他并没有放弃。偶尔会耍小孩子脾气，虽然在推理方面表现杰出，但发生紧急情况或分析案件时时不时会暴露自己的本性，偶尔会遭周围人怀疑。
+            </p>
+            <br>
+        </div>
+        <div>
+            <p id="角色生活"><b>角色生活</b></p>
+            <p>新一喜爱足球、热爱推理，经常熬夜看推理小说，他习惯边踢足球边思考问题，在推理时也经常做出福尔摩斯的经典思考动作——用右手的食指和大拇指托住下颌，他的推理、足球水平一流，其他运动也很在行。他有着极其广阔的知识面，在校成绩一直为满分。他还擅长滑雪、滑冰、射击、驾驶（包括汽车、飞机、直升机、快艇）、拆弹、拉小提琴、多种外语、电脑、游泳、国际象棋、麻将、盲文等。他还拥有绝对音感。
+                他崇拜的偶像是夏洛克·福尔摩斯和雷·卡提斯（足球明星，已被捕），他喜欢的作品有《福尔摩斯探案集之四签名》（柯南·道尔 著）和《侦探左文字》系列（新名任太郎、新名香保里
+                著）等，喜欢吃柠檬派和小笼包，他憧憬的城市是英国伦敦。他经常模仿福尔摩斯的语气说出其名言：“When you have eliminated the impossible, whatever
+                remains,
+                however improbable, must be the truth.
+                （除去所有不可能的因素，留下来的东西，无论你多么不愿意去相信，但它就是事实的真相！）”
+                他平日里寄住在日本东京都米花町五丁目39番地的毛利侦探事务所，经常和毛利兰、毛利小五郎一起外出调查案件。因为成立了少年侦探团的关系，阿笠博士经常带着侦探团成员出去游玩。</p>
+            <br>
+        </div>
+        <div class="footer">
+            <p style="font-size: medium;">《名侦探柯南》</p>
+            <p>相关介绍</p>
+        </div>
+    </div>
+</body>
+
+</html>
